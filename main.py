@@ -1,5 +1,3 @@
-# RUN BUTTON BY DEFAULT EXECUTES pymon main.py. TO REVERT BACK TO USING PYTHON INTERPRETER DIRECTLY, REPLACE pymon WITH python3
-
 import discord
 from discord.ext import commands
 import asyncio
@@ -36,7 +34,7 @@ NAME replied to REPLIED_MSG with REPLY. Here, NAME is the name of the person who
 
 Start a chat with you as HxpChan talking to someone whose name you will ask and take input to begin the conversation on the description given above."""
 bot = commands.Bot(command_prefix='₹', self_bot=True)
-model = GPT4All("llama-2-7b-chat.ggmlv3.q4_0.bin", model_path="/workspaces/DiscordAI/")
+model = GPT4All("llama-2-7b-chat.ggmlv3.q4_0.bin")
 print("Model loaded")
 
 # Define a list of statuses for the bot to cycle through
