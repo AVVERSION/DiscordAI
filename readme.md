@@ -9,7 +9,7 @@
   <li>Run "pip install -r requirements.txt" in the directory where you have downloaded the code.</li>
   <li>Create a new account or use an existing account and fetch its 'token' value from the browser client.</li>
   <li>Rename the .env,example file to .env</li>
-  <li>Paste in your token in the .env where "your_token" is the token of the account to be controlled</li>
+  <li>Paste in your token without the quotes ('', "") in the .env where "your_token" is the token of the account to be controlled</li>
   <li>Have atleast 6-9 GB free in the directory where this is installed for the language model.</li>
   <li>You may also customize what the bot acts like by editing the variable 'system_prompt' in <a href="https://github.com/AVVERSION/DiscordAI/blob/main/main.py">main.py</a> line 13</li>
 </ol>
