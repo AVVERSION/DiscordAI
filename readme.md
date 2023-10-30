@@ -13,6 +13,9 @@
   <li>Have atleast 6-9 GB free in the directory where this program is installed for the language model.</li>
   <li>You may also customize what the bot acts like by editing the variable 'system_prompt' in <a href="https://github.com/AVVERSION/DiscordAI/blob/main/main.py">main.py</a> line 13</li>
 </ol>
+
+### In order to use this code in a regular discord bot, set the self bot flag in main.py file to false.
+
 <hr>
 
 ## Planned Upcoming Features:
