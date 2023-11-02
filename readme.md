@@ -22,4 +22,7 @@
 ### 1. Moderation Via Natural Language
 <hr>
 
+##### For the error regarding 'GLIBCXX_3.4.29', I suggest that you visit this <a href="https://stackoverflow.com/questions/65349875/where-can-i-find-glibcxx-3-4-29">page</a> where you may find something that would help you. We shall be working to avoid this step and make a workaround or add it in itself.
+<hr>
+
 ## Before using this code, Please credit the author as well as post the link of this repository in the Credits file
