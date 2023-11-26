@@ -1,3 +1,4 @@
+# DiscordAI - AVVERSION
 import discord
 from discord.ext import commands
 import asyncio
@@ -7,6 +8,17 @@ import random
 from gpt4all import GPT4All
 import dotenv
 import datetime
+
+print("""
+/$$$$$$$  /$$                                               /$$  /$$$$$$  /$$$$$$
+| $$__  $$|__/                                              | $$ /$$__  $$|_  $$_/
+| $$  \ $$ /$$  /$$$$$$$  /$$$$$$$  /$$$$$$   /$$$$$$   /$$$$$$$| $$  \ $$  | $$  
+| $$  | $$| $$ /$$_____/ /$$_____/ /$$__  $$ /$$__  $$ /$$__  $$| $$$$$$$$  | $$  
+| $$  | $$| $$|  $$$$$$ | $$      | $$  \ $$| $$  \__/| $$  | $$| $$__  $$  | $$  
+| $$  | $$| $$ \____  $$| $$      | $$  | $$| $$      | $$  | $$| $$  | $$  | $$  
+| $$$$$$$/| $$ /$$$$$$$/|  $$$$$$$|  $$$$$$/| $$      |  $$$$$$$| $$  | $$ /$$$$$$
+|_______/ |__/|_______/  \_______/ \______/ |__/       \_______/|__/  |__/|______/
+""")
 
 dotenv.load_dotenv()
 token = os.getenv('TOKEN')
@@ -107,3 +119,4 @@ async def on_friend_request(request):
 
 
 bot.run(token)
+#    DiscordAI - Copyright AVVERSION 2023
